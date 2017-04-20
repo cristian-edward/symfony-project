@@ -1,0 +1,25 @@
+{
+  "name": "symfony-project",
+  "version": "1.0.0",
+  "description": "Symfony Standard Edition\r ========================",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristian-edward/symfony-project.git"
+  },
+  "author": "Cristian Edward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristian-edward/symfony-project/issues"
+  },
+  "homepage": "https://github.com/cristian-edward/symfony-project#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

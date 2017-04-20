@@ -1,11 +1,19 @@
-Symfony Standard Edition
+Symfony application
 ========================
-
-Welcome to the Symfony Standard Edition - a fully-functional Symfony
-application that you can use as the skeleton for your new applications.
-
-For details on how to download and get started with Symfony, see the
-[Installation][1] chapter of the Symfony Documentation.
+   For install:
+   
+**1.** composer update<space> \
+**2.** npm install \
+<space><space><space>**2.1** [**npm install --save-dev gulp**][1] \
+<space><space><space>**2.2** npm install gulp-if \
+<space><space><space>**2.3** npm install gulp-uglify \
+<space><space><space>**2.4** npm install gulp-uglifycss \
+<space><space><space>**2.5** npm install gulp-less \
+<space><space><space>**2.6** npm install gulp-concat \
+<space><space><space>**2.7** npm install gulp-sourcemaps \
+<space><space><space>**2.8** create gulp.js \
+<space><space><space><space><space><space>**2.8.1** [**configure file gulp.js**][2] \
+**3.**
 
 What's inside?
 --------------
@@ -58,7 +66,8 @@ released under the MIT or BSD license.
 
 Enjoy!
 
-[1]:  https://symfony.com/doc/3.2/setup.html
+[1]:  http://www.ymc.ch/de/blog/symfony-2-6-step-by-step-best-practice-guide-to-building-a-website-including-bower-bootstrap-jquery-and-gulp/
+[2]:  https://github.com/cristian-edward/cofetaria-ioana/blob/master/gulpfile.js
 [6]:  https://symfony.com/doc/current/bundles/SensioFrameworkExtraBundle/index.html
 [7]:  https://symfony.com/doc/3.2/doctrine.html
 [8]:  https://symfony.com/doc/3.2/templating.html
