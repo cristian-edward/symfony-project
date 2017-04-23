@@ -1,9 +1,9 @@
 <?php
 
-namespace AppBundle;
+namespace IoanaBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class AppBundle extends Bundle
+class IoanaBundle extends Bundle
 {
 }
