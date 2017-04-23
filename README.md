@@ -12,8 +12,8 @@ Symfony application
 <space><space><space>**2.6** npm install gulp-concat \
 <space><space><space>**2.7** npm install gulp-sourcemaps \
 <space><space><space>**2.8** create gulp.js \
-<space><space><space><space><space><space>**2.8.1** [**configure file gulp.js**][2] \
-**3.**
+<space><space><space><space><space><space>**2.8.1** [**configure file gulp.js**][2] 
+
 
 What's inside?
 --------------
