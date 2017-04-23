@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <title>{% block title %}Cofetaria IOANA{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
 
         {# icon for iOS #}
@@ -14,9 +14,15 @@
         <link href="{{ asset('assets/icon/apple-touch-icon-180x180.png') }}" rel="apple-touch-icon" sizes="180x180" />
         <link href="{{ asset('assets/icon/apple-touch-icon-192x192.png') }}" rel="icon" sizes="192x192" />
 
+        {# CSS #}
+        {% block stylesheets %}
+            <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}" />
+        {% endblock %}
     </head>
     <body>
         {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
+        {% block javascripts %}
+            <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
+        {% endblock %}
     </body>
 </html>
